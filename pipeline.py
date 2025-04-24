@@ -18,7 +18,7 @@ from transformers import pipeline
 from dotenv import load_dotenv
 from pathlib import Path
 
-# Setup logging with emojis
+# Setup logging
 logging.basicConfig(
     level=logging.INFO,
     format="🕒 %(asctime)s - 📍 %(name)s - [%(levelname)s]  %(message)s",
